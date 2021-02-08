@@ -30,4 +30,11 @@ There are three cases in Delete:\
 •	If the value is a leaf node then delete it.\
 •	If the value to be deleted has one child.\
 •	If the value to be deleted has two children.\
-Time Complexity is O (Log n)
+Time Complexity is O (Log n).
+
+## Group Number:
+17
+
+## Group Members:
+Hamza Siddiqui(19B-097-SE)\
+Syed Faizan Ali(19B-091-SE)

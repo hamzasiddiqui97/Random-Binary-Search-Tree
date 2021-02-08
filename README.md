@@ -1,7 +1,7 @@
 # Random Binary Search Tree
 Random Binary Search tree (Treap) is a Balanced Binary Search Tree, but not guaranteed to have height as O (Log n). The idea is to use Randomization and Binary Heap property to maintain balance with high probability. The expected time complexity of search, insert and delete is O (Log n).
 
-FUNCTION USED IN THE BINARY SEARCH TREE:
+# FUNCTION USED IN THE BINARY SEARCH TREE:
 • Rotate left (root).
 • Rotate right (root)
 • Insertion (value)
@@ -10,10 +10,10 @@ FUNCTION USED IN THE BINARY SEARCH TREE:
 • InOrder ()
 • PostOrder()
 
-ROTATE RIGHT:
+# ROTATE RIGHT:
 If the value is less than the root than we will we rotate it right.
 
-INSERTION ():
+# INSERTION ():
 • Insert takes value as parameter and insert these values along with random generated priority to maintain maximum heap property. If the value is less than the root than it will insert it in the left subtree by using right rotation. And if the value is greater than the root then it will insert it in the right subtree using left rotation.
 • The time complexity is O (log n).
 

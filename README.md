@@ -17,15 +17,17 @@ If the value is less than the root than we will we rotate it right.
 If the value is greater than the root than we will we rotate it left.
 ## INSERTION:
 •	Insert takes value as parameter and insert these values along with random generated priority to maintain maximum heap property.\
-If the value is less than the root than it will insert it in the left subtree by using right rotation. And if the value is greater than the root then it will insert it in the right subtree using left rotation. The time complexity is O (log n).
-SEARCH ():
-•	Search function will take value as parameter.
-•	If the required value is greater it will search in the right subtree otherwise if it smaller than the root node then it will search in the left subtree
+If the value is less than the root than it will insert it in the left subtree by using right rotation.\
+And if the value is greater than the root then it will insert it in the right subtree using left rotation.\
+The time complexity is O (log n).
+## SEARCH:
+•	Search function will take value as parameter.\
+•	If the required value is greater it will search in the right subtree otherwise if it smaller than the root node then it will search in the left subtree\
 •	The time complexity is O (log n).
-DELETE ():
-Delete function will value as parameter.
-•	There are three cases in Delete:
-•	If the value is a leaf node then delete it.
-•	If the value to be deleted has one child.
-•	If the value to be deleted has two children.
+## DELETE ():
+Delete function will value as parameter.\
+There are three cases in Delete:\
+•	If the value is a leaf node then delete it.\
+•	If the value to be deleted has one child.\
+•	If the value to be deleted has two children.\
 Time Complexity is O (Log n)
